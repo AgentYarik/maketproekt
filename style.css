@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000000;
+}
+.header {
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+.header__logo-text{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.header__logo-img {
+    height: 40px;
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+}
+
+.header__menu-item {
+    margin-right: 20px;
+    color: #fff;
+    padding: 22px;
+    font-size: 17px;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.button {
+    margin-top: 10px;
+    height: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #621DED;
+    border-radius: 6px;
+    padding: 20px;
+}
+.photo__big {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 932px;
+    margin: 187px auto;
+}
+
+.text {
+    text-align: center;
+    color: #fff;
+}
+
+.text-1 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 64px;
+    margin-top: 80px;
+}
+
+.text-2 {
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+.text-container {
+    text-align: left;
+}
+.text__1 {
+
+}
+.golovna{
+}
+.Big {
+    margin-top: 942px;
+    color: #fff;
+    max-width: 846px;
+    height: 53px;
+}
+.Mini {
+    color: #fff;
+    max-width: 851px;
+    height: 72px;
+}
+.block-left {
+    color: #fff;
+    
+}
+.textt-1 {
+    
+}
+.tettxx-2 {
+    font-size: 15px;
+}
+.blocksis{
+    display: flex;
+    padding: 291px;
+}
+.block-foot {
+    color: #fff;
+}
+.block-foot-right{
+    color: #fff;
+}
+.p-1{
+    color: #A37BF4;
+    background-color: #621DED;
+    width: 103px;
+    height: 22px;
+    border-radius: 50px;
+    font-size: 13px;
+    text-align: center;
+}
+.h-1{
+
+}
+.h-3{
+
+}
+.p {
+    color: #A37BF4;
+    background-color: #621DED;
+    width: 103px;
+    height: 22px;
+    border-radius: 50px;
+    font-size: 13px;
+    text-align: center;
+}
+.h1 {
+    margin: 9px;
+    font-size: 24px;
+}
+.h3 {
+    margin-top: 10px;
+}
+.blocks{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-around;
+}
+.block-1{
+    color: #fff;
+}
+.block-2{
+    color: #fff;
+    margin-top: 218px;
+}
+.block__text {
+    text-align: center;
+}
+.h__2 {
+    color: #fff;
+    font-size: 42px;
+}
+.p__1 {
+    color: #fff;
+    font-size: 24px;
+}
+.block__text-new {
+    text-align: center;
+    padding-top: 317px;
+}
+.hh2 {
+    color: #fff;
+    font-size: 42px;
+}
+.pp1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.phototes{
+    display: flex;
+    margin-top: 146px;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+    flex-direction: column;
+}
+
+
+.photo {
+}
+
+.photo__img {
+}
+
+.text__p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.photoo__2 {
+}
+.photo__img-2 {
+}
+
+.text__p-2 {
+    color: white;
+    font-size: 20px;
+}
+.countainer {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: #13151B;
+    max-width: 570px;
+    height: 210px;
+    margin: 20px auto;
+    border-radius: 6px;
+}
+.card-header {
+    display: flex;
+}
+.card-text {
+}
+.card-info {
+    font-size: 17px;
+    width: 111px;
+    height: 23px;
+}
+.card-footer {
+    font-size: 17px;
+    max-width: 483px;
+    height: 51px;
+    margin-top: 20px;
+}
+.main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* Стилі для великих екранів (дисплей максимум 1199рх) */
+@media (max-width: 1199px) {}
+
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+    @media (max-width: 991px) {
+    
+    }
+
+/* Стилі для малих екранів (дисплей максимум 767рх) */
+    @media (max-width: 767px) {
+        .header__menu{
+            display: none;
+        }
+        body{
+            background: #fff;
+        }
+        .text-1{
+            color: #000;
+        }
+        .text-2{
+            color: #000;
+        }
+        .blocks{
+            flex-direction: column;
+        }
+        .menu-btn {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            border: 1px solid #fff;
+        }
+        .header__menu .button {
+            display: none;
+        }
+        .menu-btn span {
+            width: 30px;
+            height: 3px;
+            position: absolute;
+            background-color: #fff;
+            top: 50%;
+        }
+        .menu-btn span::before{
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 3px;
+            background-color: #fff;
+            top: 15px;
+        }
+        .menu-btn span::after{
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 3px;
+            background-color: #fff;
+            bottom: 15px;
+        }
+        .block-foot{
+            display: none;
+        }
+        .block-foot-right{
+            display: none;
+        }
+    }
+
+/* Стилі для дуже малих екранів (дисплей максимум 575рх) */
+    @media (max-width: 575px) {
+        .header__menu{
+            display: none;
+        }
+        body{
+            background: #fff;
+        }
+        .text-1{
+            color: #000;
+        }
+        .text-2{
+            color: #000;
+        }
+        .blocks{
+            flex-direction: column;
+        }
+        .menu-btn {
+            width: 50px;
+            height: 50px;
+            position: relative;
+
+        }
+        .block__text{
+            
+        }
+        .header__menu .button {
+            display: none;
+        }
+        .menu-btn span {
+            width: 30px;
+            height: 3px;
+            position: absolute;
+            background-color: #fff;
+            top: 50%;
+        }
+        .menu-btn span::before{
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 3px;
+            background-color: #fff;
+            top: 15px;
+        }
+        .menu-btn span::after{
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 3px;
+            background-color: #fff;
+            bottom: 15px;
+        }
+        .block-foot{
+            display: none;
+        }
+        .block-foot-right{
+            display: none;
+        }
+    }
